@@ -15,3 +15,8 @@ and LCD screen to my metro board and then created a
 code that allows it to count up by one on the LCD
 if the button is pressed. The most difficult part was 
 trying to do it without an excessive use of time.sleep
+
+In this assignment I used a photo interupter to print the 
+number of interupts o nthe srial monitor. It was a bit 
+difficult to not get it to just print out random interupt 
+numbers.
