@@ -21,35 +21,3 @@ number of interupts o nthe srial monitor. It was a bit
 difficult to not get it to just print out random interupt 
 numbers.
 
-In this assignment we used an ultrasonic sensor in order
-to change the RGB led light on the metro bored from
-red to green while, displaying all the colors in between
-the too like, blu, teal, purple, etc.
-
-_______$$$$$$ 
-.
-______$$_____$$ 
-.
-_____$__(•)____$$ 
-.
-___$$__________$ 
-.
-______$$_____$ 
-.
-_____$____$ 
-.
-____$____$__$$$__$$______$ 
-.
-__$$_____$_____$$__$$__$$$ 
-.
-__$______$___________$$__$ 
-.
-__$$_______$______$$_____$ 
-.
-__$$________$$$$$$______$ 
-.
-___$$$________________$ 
-.
-_____$$$$__________$$ 
-.
-_______$$$$$$$$$$$$
