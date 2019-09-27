@@ -26,24 +26,8 @@ to change the RGB led light on the metro bored from
 red to green while, displaying all the colors in between 
 the too like, blu, teal, purple, etc. 
 
-
 The purpose of this assigment was to use 2 rgb leds and 
 display all the colors of the rainbow in order, and then 
 create a color shift rainbow sequence with the same led 
 the previous colors are displayed. (Hardest part is 
 getting the leds to work)
-=======
-to change the RGB led light on the metro bored from
-red to green while, displaying all the colors in between
-the too like, blu, teal, purple, etc.
-
-
-The purpose of this assigment was to use 2 rgb leds and
-display all the colors of the rainbow in order, and then
-create a color shift rainbow sequence with the same led
-the previous colors are displayed. (Hardest part is
-getting the leds to work)
-
-
-
->>>>>>> ac949424334bc62e325fc05b6406110c23046b98
