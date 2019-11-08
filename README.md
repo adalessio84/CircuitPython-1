@@ -10,6 +10,14 @@ The first assignment I did was and LED blink/fade
 project, I used the CircuitPython metro board
 to make an LED blink and then fade in and out
 
+##### Pictures
+
+##### Problems
+
+##### What I Learned!
+
+
+
 ## Servo
 
 ##### Objective
@@ -19,6 +27,14 @@ I basically just made a servo turn by touching 2
 different wires which made it go in either
 direction, I set it to 180 degrees which ment it
 went from one end of the servo to the other.
+
+##### Pictures
+
+##### Problems
+
+##### What I Learned!
+
+
 
 ## LCD Screen and botton
 
@@ -30,6 +46,14 @@ code that allows it to count up by one on the LCD
 if the button is pressed. The most difficult part was
 trying to do it without an excessive use of time.sleep
 
+##### Pictures
+
+##### Problems
+
+##### What I Learned!
+
+
+
 ## Photo Interupter
 
 ##### Objective
@@ -39,6 +63,14 @@ number of interupts o nthe srial monitor. It was a bit
 difficult to not get it to just print out random interupt
 numbers.
 
+##### Pictures
+
+##### Problems
+
+##### What I Learned!
+
+
+
 ## Ultrasonic Sensor
 
 ##### Objective
@@ -47,6 +79,14 @@ In this assignment we used an ultrasonic sensor in orde
 to change the RGB led light on the metro bored from 
 red to green while, displaying all the colors in between 
 the too like, blu, teal, purple, etc. 
+
+##### Pictures
+
+##### Problems
+
+##### What I Learned!
+
+
 
 ## Fancy RGB LED
 
