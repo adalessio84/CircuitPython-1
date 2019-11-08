@@ -1,8 +1,7 @@
 # My CircuitPython assignments
 
-
 ## LED Blink Fade
-
+[[]]
 ##### Objective 
 
 The first assignment I did was and LED blink/fade
@@ -18,7 +17,7 @@ to make an LED blink and then fade in and out
 
 
 ## Servo
-
+[[]]
 ##### Objective
 
 The next assignment I did was a servo assignment.
@@ -36,7 +35,7 @@ went from one end of the servo to the other.
 
 
 ## LCD Screen and botton
-
+[[]]
 ##### Objective
 
 The last assignment I did was I hooked up a button
@@ -54,7 +53,7 @@ trying to do it without an excessive use of time.sleep
 
 
 ## Photo Interupter
-
+[[]]
 ##### Objective
 
 In this assignment I used a photo interupter to print the
@@ -71,7 +70,7 @@ numbers.
 
 
 ## Ultrasonic Sensor
-
+[[]]
 ##### Objective
 
 In this assignment we used an ultrasonic sensor in orde
@@ -88,7 +87,7 @@ the too like, blu, teal, purple, etc.
 
 
 ## Fancy RGB LED
-
+[[]]
 ##### Objective
 
 The purpose of this assigment was to use 2 rgb leds and 
@@ -96,3 +95,5 @@ display all the colors of the rainbow in order, and then
 create a color shift rainbow sequence with the same led 
 the previous colors are displayed. (Hardest part is 
 getting the leds to work)
+
+
