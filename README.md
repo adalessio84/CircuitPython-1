@@ -2,7 +2,8 @@
 **My CircuitPython assignments**
 
 
-****LED Blink Fade***
+****LED Blink Fade****
+
 ***Objective*** 
 
 The first assignment I did was and LED blink/fade
@@ -10,6 +11,7 @@ project, I used the CircuitPython metro board
 to make an LED blink and then fade in and out
 
 ****Servo****
+
 ***Objective***
 
 The next assignment I did was a servo assignment.
@@ -19,6 +21,7 @@ direction, I set it to 180 degrees which ment it
 went from one end of the servo to the other.
 
 ****LCD Screen and botton****
+
 ***Objective***
 
 The last assignment I did was I hooked up a button
@@ -28,6 +31,7 @@ if the button is pressed. The most difficult part was
 trying to do it without an excessive use of time.sleep
 
 ****Photo Interupter****
+
 ***Objective***
 
 In this assignment I used a photo interupter to print the
@@ -36,6 +40,7 @@ difficult to not get it to just print out random interupt
 numbers.
 
 ****Ultrasonic Sensor****
+
 ***Objective***
 
 In this assignment we used an ultrasonic sensor in orde
@@ -44,6 +49,7 @@ red to green while, displaying all the colors in between
 the too like, blu, teal, purple, etc. 
 
 ****Fancy RGB LED****
+
 ***Objective***
 
 The purpose of this assigment was to use 2 rgb leds and 
