@@ -31,3 +31,6 @@ display all the colors of the rainbow in order, and then
 create a color shift rainbow sequence with the same led 
 the previous colors are displayed. (Hardest part is 
 getting the leds to work)
+
+Added Class Accounts
+
