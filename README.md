@@ -12,7 +12,7 @@ to make an LED blink and then fade in and out
 
 ##### Pictures
 
-<img src="media/led_fade.png" width="300px" /><img src"media/ledfade_codepic.png" width="300px" />
+<img src="media/led_fade.png" width="300px" /> <img src="media/ledfade_codepic.png" width="300px" />
 
 * I got this from [Dr. Shields](https://github.com/DoctorShields)
 
