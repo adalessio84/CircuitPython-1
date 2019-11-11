@@ -3,7 +3,7 @@
 
 This tool gives your information and guidline for certain features like links and picture formating for github.
 ## LED Blink Fade
-[[]]
+
 ##### Objective 
 
 The first assignment I did was and LED blink/fade
@@ -11,6 +11,9 @@ project, I used the CircuitPython metro board
 to make an LED blink and then fade in and out
 
 ##### Pictures
+
+<img src="media/led_fade_bb.png" width="300px" />
+[I got this picture from Dr. Shields](https://github.com/DoctorShields/CircuitPython)
 
 ##### Problems
 The main problem that i faced in this project was actually the wriring, I had to do some research to re-acquaint myself with how to wire and LED correctly, but other than that there where very few problems that I face while doing this assignment. (I had one time when I got an error from the console, however, I just needed to restart the board. 
