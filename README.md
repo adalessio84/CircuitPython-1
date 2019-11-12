@@ -47,6 +47,16 @@ went from one end of the servo to the other.
 
 <img src="media/circuitpython_MetroM4ExpressServo_bb.jpg" width="300px" />
 
+```python
+# create a PWMOut object on Pin A2.
+pwm = pulseio.PWMOut(board.D13)
+duty_cycle=2 ** 15, frequency=50)
+
+# Create a servo object, my_servo.
+my_servo = servo.Servo(pwm)
+```
+* This code snippet gives you a start to making the servo rotate. Next, you just need angles and degrees to make it turn.
+
 ##### Problems
 The main problem I faced in this assignment, was figruing out how to get the servo to turn. I already had a pretty good idea of how to wire a servo since that was my main project last year, however, it took me a few tries to get the servo to turn the ammount of degrees I wanted, which was very annoying. Another thing I had a problem with was figuring out how to make it turn by touching the wires. It took me about half a day and the help from other github pages to figure it out.
 ##### What I Learned!
