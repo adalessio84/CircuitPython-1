@@ -157,6 +157,8 @@ the too like, blu, teal, purple, etc.
 
 <img src="media/color spectrum.png" width="300px" />
 
+* This will give you an idea of what your distances should be...
+
 ```python
 ```
 
