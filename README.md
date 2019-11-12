@@ -155,7 +155,7 @@ the too like, blu, teal, purple, etc.
 ##### Pictures
 
 
-<img src="media/" width="300px" />
+<img src="media/color spectrum.png" width="300px" />
 
 ```python
 ```
