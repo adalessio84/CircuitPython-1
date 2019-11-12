@@ -16,15 +16,14 @@ to make an LED blink and then fade in and out
 
 * I got this from [Dr. Shields](https://github.com/DoctorShields)
 
-'''python
+```python
 led = pulseio.PWMOut(board.D13, frequency=5000, duty_cycle=0)    # sets up pin.
 
 while True:
     for i in range(100):
         # PWM LED up and down
         if i < 50:
-'''
-
+```
 ##### Problems
 The main problem that i faced in this project was actually the wriring, I had to do some research to re-acquaint myself with how to wire and LED correctly, but other than that there where very few problems that I face while doing this assignment. (I had one time when I got an error from the console, however, I just needed to restart the board. 
 ##### What I Learned!
