@@ -77,6 +77,8 @@ trying to do it without an excessive use of time.sleep
 
 <img src="media/metroboardLCD.jpg" width="300px" />
 
+* __Ignore the potentionmeter...__
+
 ```python
 from lcd.lcd import LCD
 from lcd.i2c_pcf8574_interface import I2CPCF8574Interface
