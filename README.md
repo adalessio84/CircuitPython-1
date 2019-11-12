@@ -1,7 +1,5 @@
 # My CircuitPython assignments
-* [Helpful tool for making your github page!](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-This tool gives your information and guidline for certain features like links and picture formating for github.
 ## LED Blink Fade
 
 ##### Objective 
@@ -177,3 +175,7 @@ I learned to use 3v instead of 5v to get better color definition. Also I learned
 * [Dr Shields's page is very helpful!](https://github.com/DoctorShields/CircuitPython/blob/master/README.md)
 
 * __Use this link to get an idea of how to make your github page, and remember to site your source.__
+
+* [Helpful tool for making your github page!](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+* __This tool gives your information and guidline for certain features like links and picture formating for github.__
