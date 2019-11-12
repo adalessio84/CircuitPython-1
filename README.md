@@ -171,3 +171,5 @@ I learned to use 3v instead of 5v to get better color definition. Also I learned
 
 ## Other Helpful Tools!
 * [Use my pictures!](https://github.com/lmiller87/CircuitPython/tree/master/media)
+
+* If you use these, please make sure to credit me and/or the person I got it from.
