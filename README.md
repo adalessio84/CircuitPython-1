@@ -1,7 +1,5 @@
 # My CircuitPython assignments
-* [Helpful tool for making your github page!](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-This tool gives your information and guidline for certain features like links and picture formating for github.
 ## LED Blink Fade
 
 ##### Objective 
@@ -64,7 +62,7 @@ I learned how to once again make a servo turn but this time using my fingers to 
 
 
 ## LCD Screen and botton
-[[]]
+
 ##### Objective
 
 The last assignment I did was I hooked up a button
@@ -75,6 +73,26 @@ trying to do it without an excessive use of time.sleep
 
 ##### Pictures
 
+<img src="media/metroboardLCD.jpg" width="300px" />
+
+```python
+from lcd.lcd import LCD
+from lcd.i2c_pcf8574_interface import I2CPCF8574Interface
+
+from lcd.lcd import CursorMode
+button_a = digitalio.DigitalInOut(board.BUTTON_A)
+button_a.direction = digitalio.Direction.INPUT
+button_a.pull = digitalio.Pull.DOWN
+
+button_b = digitalio.DigitalInOut(board.BUTTON_B)
+button_b.direction = digitalio.Direction.INPUT
+button_b.pull = digitalio.Pull.DOWN
+```
+
+* This bit of code will help you understand how to set up your buttons for the LCD assignment
+
+* __Notice the (from lcd.i2c_pcf8574_interface import I2CPCF8574Interface) this is a very important part of the code!__
+
 ##### Problems
 In this assignment I had 2 problems, getting the lcd screen to print what I wanted, to get the button to count up without using a time.sleep constantly. This assignment was one of the more difficult ones because I had to make a code which didnt use time.sleep as much, which, trust me, was very hard because up until now, time.sleep was the only delay type of tool I used (besides delay on Arduino). Getting what I wanted on the actual LCD screen was super hard for me. I didn't get it working until the very, infact I used the serial monitor to do all the numeric stuff involved. 
 ##### What I Learned!
@@ -82,7 +100,7 @@ This assignmetn taught me how to use the LCD to count up and how to wire a butto
 
 
 ## Photo Interupter
-[[]]
+
 ##### Objective
 
 In this assignment I used a photo interupter to print the
@@ -92,6 +110,11 @@ numbers.
 
 ##### Pictures
 
+<img src="media/" width="300px" />
+
+```python
+```
+
 ##### Problems
 The only problem I had with this one was getting the serial montor to not just print random numbers when the photo interupter is interupted. It would print really odd numbers when I slid a piece of acrilyc through it and it took me a long time to figure out why it was doing that and how to fix it. 
 ##### What I Learned!
@@ -99,7 +122,7 @@ In the end I learned that I need to pay more attention to the corralation of my 
 
 
 ## Ultrasonic Sensor
-[[]]
+
 ##### Objective
 
 In this assignment we used an ultrasonic sensor in orde
@@ -109,6 +132,12 @@ the too like, blu, teal, purple, etc.
 
 ##### Pictures
 
+
+<img src="media/" width="300px" />
+
+```python
+```
+
 ##### Problems
 This project was a difficult one. I had to get it to print differnt colors at differemt distances and it was tough. I say this because the ultrasonic sensor is somewhat glitchy sometimes, and it will print distances from all the way across the room. (so basically it would be transitioning accoringly and then random go to red because the distance was interupted) My wiring was right and coding was right, I just needed to do some fixing up to the delays and distances to make them run smoother. 
 ##### What I Learned!
@@ -116,7 +145,7 @@ In this assignment I learned that using a flat surface is the best way to minimi
 
 
 ## Fancy RGB LED
-[[]]
+
 ##### Objective
 
 The purpose of this assigment was to use 2 rgb leds and 
@@ -127,8 +156,26 @@ getting the leds to work)
 
 ##### Pictures
 
+
+<img src="media/" width="300px" />
+
+```python
+```
+
 ##### Problems
 The most significant problem I had with this assignment was getting the wiring and code synced up. It took me so long to get the LEDs to turn on and then after that to make the right colors. Other than that there few problems. (Occasional error in console) However, once I got to the rainbow light, it got super difficult. I had to keep switching the pins on the board to get the wires correct and I had to reverse a couple colors, which got super tedious and annoying. But I eventually figured it out. 
 ##### What I Learned!
 I learned to use 3v instead of 5v to get better color definition. Also I learned how to wire and use an RGB LED and get the colors to work properly. 
 
+## Other Helpful Tools!
+* [Use my pictures!](https://github.com/lmiller87/CircuitPython/tree/master/media)
+
+* __If you use these, please make sure to credit me and/or the person I got it from.__
+
+* [Dr Shields's page is very helpful!](https://github.com/DoctorShields/CircuitPython/blob/master/README.md)
+
+* __Use this link to get an idea of how to make your github page, and remember to site your source.__
+
+* [Helpful tool for making your github page!](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+* __This tool gives your information and guidline for certain features like links and picture formating for github.__
