@@ -119,7 +119,7 @@ numbers.
 
 ##### Pictures
 
-<img src="media/" width="300px" />
+<img src="media/photinterupterpic.png" width="300px" />
 
 ```python
 photo_state = photo.value
@@ -135,7 +135,7 @@ photo_state = photo.value
         value = 0
 ```
 
-* After I finished this but of code, the whole assignment got so much easier. Use this, it will help!
+* After I finished this bit of code, the whole assignment got so much easier. Use this, it will help!
 
 ##### Problems
 The only problem I had with this one was getting the serial montor to not just print random numbers when the photo interupter is interupted. It would print really odd numbers when I slid a piece of acrilyc through it and it took me a long time to figure out why it was doing that and how to fix it. 
