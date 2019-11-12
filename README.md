@@ -119,7 +119,7 @@ numbers.
 
 ##### Pictures
 
-<img src="media/" width="300px" />
+<img src="media/photinterupterpic.PNG" width="300px" />
 
 ```python
 photo_state = photo.value
