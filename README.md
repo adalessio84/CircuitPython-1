@@ -170,4 +170,4 @@ The most significant problem I had with this assignment was getting the wiring a
 I learned to use 3v instead of 5v to get better color definition. Also I learned how to wire and use an RGB LED and get the colors to work properly. 
 
 ## Other Helpful Tools!
-* github.com/media
+* (Use my pictures!)[https://github.com/lmiller87/CircuitPython/tree/master/media]
