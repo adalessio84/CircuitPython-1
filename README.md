@@ -45,6 +45,8 @@ went from one end of the servo to the other.
 
 <img src="media/servo_with_touch_bb.png" width="300px" />
 
+* I got this from [Dr. Shields](https://github.com/DoctorShields)
+
 ```python
 # create a PWMOut object on Pin A2.
 pwm = pulseio.PWMOut(board.D13)
