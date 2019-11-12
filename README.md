@@ -64,7 +64,7 @@ I learned how to once again make a servo turn but this time using my fingers to 
 
 
 ## LCD Screen and botton
-[[]]
+
 ##### Objective
 
 The last assignment I did was I hooked up a button
@@ -74,6 +74,26 @@ if the button is pressed. The most difficult part was
 trying to do it without an excessive use of time.sleep
 
 ##### Pictures
+
+<img src="media/metroboardLCD.jpg" width="300px" />
+
+```python
+from lcd.lcd import LCD
+from lcd.i2c_pcf8574_interface import I2CPCF8574Interface
+
+from lcd.lcd import CursorMode
+button_a = digitalio.DigitalInOut(board.BUTTON_A)
+button_a.direction = digitalio.Direction.INPUT
+button_a.pull = digitalio.Pull.DOWN
+
+button_b = digitalio.DigitalInOut(board.BUTTON_B)
+button_b.direction = digitalio.Direction.INPUT
+button_b.pull = digitalio.Pull.DOWN
+```
+
+* This bit of code will help you understand how to set up your buttons for the LCD assignment
+
+* __Notice the (from lcd.i2c_pcf8574_interface import I2CPCF8574Interface) this is a very important part of the code!__
 
 ##### Problems
 In this assignment I had 2 problems, getting the lcd screen to print what I wanted, to get the button to count up without using a time.sleep constantly. This assignment was one of the more difficult ones because I had to make a code which didnt use time.sleep as much, which, trust me, was very hard because up until now, time.sleep was the only delay type of tool I used (besides delay on Arduino). Getting what I wanted on the actual LCD screen was super hard for me. I didn't get it working until the very, infact I used the serial monitor to do all the numeric stuff involved. 
