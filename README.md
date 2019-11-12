@@ -43,7 +43,7 @@ went from one end of the servo to the other.
 
 ##### Pictures
 
-<img src="media/circuitpython_MetroM4ExpressServo_bb.jpg" width="300px" />
+<img src="media/servo_with_touch_bb.png" width="300px" />
 
 ```python
 # create a PWMOut object on Pin A2.
