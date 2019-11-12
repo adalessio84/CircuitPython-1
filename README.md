@@ -155,10 +155,41 @@ the too like, blu, teal, purple, etc.
 ##### Pictures
 
 
-<img src="media/" width="300px" />
+<img src="media/color spectrum.png" width="300px" />
+
+* This will give you an idea of what your distances should be...
 
 ```python
+import board
+import neopixel
+import time
+import adafruit_hcsr04
+import simpleio
+
+sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D6, echo_pin=board.D5)
+sonarValue = 0
+
+dot = neopixel.NeoPixel(board.NEOPIXEL, 1, brightness=.1)
+r = 0
+g = 0
+b = 0
 ```
+
+* This is more or less a set up for the code, it has the new neopixel import that you most definitly need for this assignment, also color and brightness are up there.
+
+```python
+  r = simpleio.map_range(sonarValue, 0, 20, 255, 0)
+            b = simpleio.map_range(sonarValue, 5, 20, 0, 255)
+            g = simpleio.map_range(sonarValue, 20, 35, 0, 255)
+
+        else:
+            r = simpleio.map_range(sonarValue, 0, 20, 255, 0)
+            b = simpleio.map_range(sonarValue, 35, 20, 0, 255)
+            g = simpleio.map_range(sonarValue, 20, 35, 0, 255)
+        dot.fill((int(r), int(g), int(b)))
+```
+
+* This is the value system, this allows the light to swtich colors at different distances.
 
 ##### Problems
 This project was a difficult one. I had to get it to print differnt colors at differemt distances and it was tough. I say this because the ultrasonic sensor is somewhat glitchy sometimes, and it will print distances from all the way across the room. (so basically it would be transitioning accoringly and then random go to red because the distance was interupted) My wiring was right and coding was right, I just needed to do some fixing up to the delays and distances to make them run smoother. 
