@@ -102,7 +102,7 @@ This assignmetn taught me how to use the LCD to count up and how to wire a butto
 
 
 ## Photo Interupter
-[[]]
+
 ##### Objective
 
 In this assignment I used a photo interupter to print the
@@ -112,6 +112,11 @@ numbers.
 
 ##### Pictures
 
+<img src="media/" width="300px" />
+
+```python
+```
+
 ##### Problems
 The only problem I had with this one was getting the serial montor to not just print random numbers when the photo interupter is interupted. It would print really odd numbers when I slid a piece of acrilyc through it and it took me a long time to figure out why it was doing that and how to fix it. 
 ##### What I Learned!
@@ -119,7 +124,7 @@ In the end I learned that I need to pay more attention to the corralation of my 
 
 
 ## Ultrasonic Sensor
-[[]]
+
 ##### Objective
 
 In this assignment we used an ultrasonic sensor in orde
@@ -129,6 +134,12 @@ the too like, blu, teal, purple, etc.
 
 ##### Pictures
 
+
+<img src="media/" width="300px" />
+
+```python
+```
+
 ##### Problems
 This project was a difficult one. I had to get it to print differnt colors at differemt distances and it was tough. I say this because the ultrasonic sensor is somewhat glitchy sometimes, and it will print distances from all the way across the room. (so basically it would be transitioning accoringly and then random go to red because the distance was interupted) My wiring was right and coding was right, I just needed to do some fixing up to the delays and distances to make them run smoother. 
 ##### What I Learned!
@@ -136,7 +147,7 @@ In this assignment I learned that using a flat surface is the best way to minimi
 
 
 ## Fancy RGB LED
-[[]]
+
 ##### Objective
 
 The purpose of this assigment was to use 2 rgb leds and 
@@ -146,6 +157,12 @@ the previous colors are displayed. (Hardest part is
 getting the leds to work)
 
 ##### Pictures
+
+
+<img src="media/" width="300px" />
+
+```python
+```
 
 ##### Problems
 The most significant problem I had with this assignment was getting the wiring and code synced up. It took me so long to get the LEDs to turn on and then after that to make the right colors. Other than that there few problems. (Occasional error in console) However, once I got to the rainbow light, it got super difficult. I had to keep switching the pins on the board to get the wires correct and I had to reverse a couple colors, which got super tedious and annoying. But I eventually figured it out. 
