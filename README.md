@@ -12,7 +12,7 @@ to make an LED blink and then fade in and out
 
 <img src="media/led_fade.png" width="300px" /> 
 
-* I got this from [Dr. Shields](https://github.com/DoctorShields)
+* I got this from [Dr. Shields](https://github.com/DoctorShields/CircuitPython)
 
 ```python
 led = pulseio.PWMOut(board.D13, frequency=5000, duty_cycle=0)    # sets up pin.
@@ -45,7 +45,7 @@ went from one end of the servo to the other.
 
 <img src="media/servo_with_touch_bb.png" width="300px" />
 
-* I got this from [Dr. Shields](https://github.com/DoctorShields)
+* I got this from [Dr. Shields](https://github.com/DoctorShields/CircuitPython)
 
 ```python
 # create a PWMOut object on Pin A2.
