@@ -213,10 +213,19 @@ getting the leds to work)
 <img src="media/RGB_wiring_diagram.png" width="300px" />
 
 ```python
+full = 65535
+
+    def __init__(self, r, g, b):
+        print(str(r))
+        self.r = pulseio.PWMOut(r, frequency=5000, duty_cycle=65)
+        self.g = pulseio.PWMOut(g, frequency=5000, duty_cycle=65)
+        self.b = pulseio.PWMOut(b, frequency=5000, duty_cycle=65)
 ```
 
+* This is one of the most important parts of this assignment!! You will most likely see def __init__(self, r, g, b):using r1, g1, and b1, DO NOT use these, they do not work. I had a ton of issues with this while doing my project and it just prevents the whole thing from working. 
+
 ##### Problems
-The most significant problem I had with this assignment was getting the wiring and code synced up. It took me so long to get the LEDs to turn on and then after that to make the right colors. Other than that there few problems. (Occasional error in console) However, once I got to the rainbow light, it got super difficult. I had to keep switching the pins on the board to get the wires correct and I had to reverse a couple colors, which got super tedious and annoying. But I eventually figured it out. 
+The most significant problem I had with this assignment was getting the wiring and code synced up. It took me so long to get the LEDs to turn on and then after that to make the right colors. Other than that there few problems. (Occasional error in console) However, once I got to the rainbow light, it got super difficult. I had to keep switching the pins on the board to get the wires correct and I had to reverse a couple colors, which got super tedious and annoying. But I eventually figured it out. (Also I used r1, g1, and b1 the entire project and this screwed me up)
 ##### What I Learned!
 I learned to use 3v instead of 5v to get better color definition. Also I learned how to wire and use an RGB LED and get the colors to work properly. 
 
