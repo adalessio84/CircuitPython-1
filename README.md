@@ -222,6 +222,17 @@ full = 65535
 
 * This is one of the most important parts of this assignment!! You will most likely see def __init__(self, r, g, b): using r1, g1, and b1, DO NOT use these, they do not work. I had a ton of issues with this while doing my project and it just prevents the whole thing from working. 
 
+```python
+def rainbow(self, x):
+        print("rainbow")
+        if x == "rate1":
+            self.r.duty_cycle = 0
+            self.b.duty_cycle = (self.full)
+            self.g.duty_cycle = (self.full)
+            for i in range(5, 65535, 5):
+```
+* __This is the code for one color of the rainbow color shift. Notice he the is a range of colors (i.e. 5,65535, 5) this allows the color to change slowly and smoothly into the next color. Remember you will have to do the same thing for the other RGB LED!__
+
 ##### Problems
 The most significant problem I had with this assignment was getting the wiring and code synced up. It took me so long to get the LEDs to turn on and then after that to make the right colors. Other than that there few problems. (Occasional error in console) However, once I got to the rainbow light, it got super difficult. I had to keep switching the pins on the board to get the wires correct and I had to reverse a couple of colors, which got super tedious and annoying. But I eventually figured it out. (Also I used r1, g1, and b1 the entire project and this screwed me up)
 ##### What I Learned!
@@ -238,7 +249,16 @@ alternating etc.
 <img src="media/FancyLED.png" width="300px" />
 
 ```python
+ def __init__(self, p1, p2, p3):
+        self.fancy1 = digitalio.DigitalInOut(p1) #sets temp values for p1/2/3
+        self.fancy2 = digitalio.DigitalInOut(p2)
+        self.fancy3 = digitalio.DigitalInOut(p3)
+        self.fancy1.direction = digitalio.Direction.OUTPUT #defines them as outputs
+        self.fancy2.direction = digitalio.Direction.OUTPUT
+        self.fancy3.direction = digitalio.Direction.OUTPUT
 ```
+
+* __Similar concept to the previous assignment, it has an init with 3 values.__
 
 ##### Problems
 The main project I had with this project was the delay system. It took me a super long time to figure out the proper delay for the code to run to the LEDs smoothly so the turn on and function correctly. What I mean by this is that the LEDs moved slower on some alternating sequences and faster on others. 
