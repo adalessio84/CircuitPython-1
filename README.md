@@ -197,7 +197,7 @@ This project was a difficult one. I had to get it to print differnt colors at di
 In this assignment I learned that using a flat surface is the best way to minimize the ultrasonic sensor glitches, also I need to be smarter about the delays I use. 
 
 
-## Fancy RGB LED
+## RGB LED
 
 ##### Objective
 
@@ -210,7 +210,7 @@ getting the leds to work)
 ##### Pictures
 
 
-<img src="media/" width="300px" />
+<img src="media/RGB_wiring_diagram.png" width="300px" />
 
 ```python
 ```
@@ -220,6 +220,23 @@ The most significant problem I had with this assignment was getting the wiring a
 ##### What I Learned!
 I learned to use 3v instead of 5v to get better color definition. Also I learned how to wire and use an RGB LED and get the colors to work properly. 
 
+## Fancy LED
+##### Objective
+The objective of this assignment was to have 6 LEDs run in a sequence. 
+This means that they are all hooked up to the same code and the run toghet. 
+Some examples of what we had to do was, flashing lights, chasing lights, 
+alternating etc. 
+##### Pictures
+
+<img src="media/FancyLED.png" width="300px" />
+
+```python
+```
+
+##### Problems
+The main project I had with this project was the delay system. It took me a super long time to figure out the proper delay for the code to run to the LEDs smoothly so the turn on and function correctly. What i mean by this is that the LEDs moved slower on some alternating sequences and faster on others. 
+##### What I Learned!
+I learned how to connect different LEDs to one sequence, so that they switch, alternate, chase, flash, etc.
 ## Other Helpful Tools!
 * [Use my pictures!](https://github.com/lmiller87/CircuitPython/tree/master/media)
 
